@@ -3,6 +3,7 @@ import "./App.css";
 import Shop from "./components/Shop";
 import Present from "./components/Present";
 import Affliation from "./components/Affliation";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Shop />
       <Present />
       <Affliation />
+      <Testimonial />
     </div>
   );
 }
