@@ -1,0 +1,57 @@
+.present {
+  padding: 70px;
+  height: max-content;
+  width: 100%;
+  background: linear-gradient(#070c38, #073b51);
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  position: relative;
+}
+.dc {
+  position: absolute;
+}
+.present .pic {
+  display: flex;
+  align-items: center;
+}
+.present .pic img {
+  width: 240px;
+  height: 240px;
+  z-index: 99;
+  transition: all 0.5s ease;
+  /* box-shadow: 0 0 100px; */
+  /* height: 500px; */
+}
+.present .content {
+  color: #fff;
+  width: 400px;
+}
+.present .content h1 {
+  font-size: 40px;
+}
+.present .content .ctext {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.present .content span {
+  color: #efba00;
+}
+.present .content a {
+  margin-top: 30px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #efba00;
+  padding: 15px;
+  border-radius: 5px;
+}
+.pic .p1:hover {
+  transform: translate3d(0, -55px, 0) rotate(15deg) scale(1.3);
+}
+.pic .p2:hover {
+  transform: rotate(-25deg) scale(1.5);
+}
+.pic .p3:hover {
+  transform: rotate(15deg) scale(1.3);
+}

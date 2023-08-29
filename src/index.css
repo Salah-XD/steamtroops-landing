@@ -3,6 +3,7 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Poppins&family=Ubuntu&display=swap");
 body {
+  overflow-x: hidden;
   margin: 0;
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
