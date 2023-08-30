@@ -9,6 +9,7 @@ import Slide from "./components/Slide";
 import Detail from "./components/Detail";
 import Service from "./components/Service";
 import Kit from "./components/Kit";
+import Faq from "./components/Faq";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Service />
       <Affliation />
       <Testimonial />
+      <Faq />
     </div>
   );
 }
