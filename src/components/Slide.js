@@ -49,7 +49,22 @@ function Slide() {
   }, [currentIndex]); // Run the effect whenever currentIndex changes
 
   return (
-    <>
+    <div className="relative">
+      <div className="main absolute z-20 left-[40%] top-5 mb-2">
+        <div className="text-5xl font-bold text-[#fff] text-center font-['Nunito',sans-serif] mb-3">
+          Lab n <span className="text-[#EFBA00]">Box</span>
+        </div>
+        <div className="text-2xl text-[#fff] text-center mb-[30px]">
+          Unleash Your{" "}
+          <span className="text-[#EFBA00] font-semibold">Inner Explorer!</span>
+        </div>
+        <a
+          href="#"
+          className="text-l ml-3  text-[#fff] text-center bg-[#EFBA00] p-4 rounded-[5px] shadow-2xl"
+        >
+          Join the Lab n Box Community &#8594;
+        </a>
+      </div>
       <div className="max-w-[100%] h-[250px] w-full m-auto  relative group">
         {/* <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
@@ -74,7 +89,7 @@ function Slide() {
         <div className="hidden group-hover:block absolute top-[40%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
           <BsChevronCompactRight onClick={nextSlide} size={30} />
         </div>
-        <div className="flex top-[75%] left-[50%] justify-center  absolute text-[#fff]">
+        <div className="flex top-[85%] left-[50%] justify-center  absolute text-[#fff]">
           {slides.map((slide, slideIndex) => (
             <div
               key={slideIndex}
@@ -95,7 +110,7 @@ function Slide() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

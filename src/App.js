@@ -6,6 +6,7 @@ import Affliation from "./components/Affliation";
 import Testimonial from "./components/Testimonial";
 import Header from "./components/Header";
 import Slide from "./components/Slide";
+import Detail from "./components/Detail";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Slide />
       <Shop />
+      <Detail />
       <Present />
       <Affliation />
       <Testimonial />
