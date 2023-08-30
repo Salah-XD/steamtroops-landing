@@ -7,6 +7,7 @@ import Testimonial from "./components/Testimonial";
 import Header from "./components/Header";
 import Slide from "./components/Slide";
 import Detail from "./components/Detail";
+import Service from "./components/Service";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Shop />
       <Detail />
       <Present />
+      <Service />
       <Affliation />
       <Testimonial />
     </div>
