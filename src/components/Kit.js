@@ -3,13 +3,36 @@ import Kcard from "./Kcard";
 
 function Kit() {
   return (
-    <div className="kit bg-[url('../../../public/images/grid.png')]">
-      <h1 className="text-center font-extrabold text-[24px] mb-[70px] text-[#EFBA00]">
+    <div className="kit bg-[url('https://i.ibb.co/TP5gdT7/grid.png')]">
+      <h1 className="text-center font-extrabold text-[24px] mb-[10px] pt-20 text-[#EFBA00]">
         Access Boundless Knowledge with Subscription
       </h1>
-      <p className="text-center font-light mt-4 text-[#fff]">
+      <p className="text-center font-light mt-2 text-[#fff]">
         Choose Your Theme
       </p>
+      <div className="cardsss flex justify-center gap-[60px] my-10">
+        <Kcard
+          title={"Chemistry Kit"}
+          img={"./images/chem.png"}
+          desc={"Chemistry starter kit for kids"}
+          gradient={"linear-gradient(#AE491E, #E3B40F)"}
+        />
+        <Kcard
+          title={"Biology Kit"}
+          img={"./images/bio.png"}
+          desc={"Biology starter kit for kids"}
+          gradient={"linear-gradient(#DDD510, #7DAF12)"}
+        />
+        <Kcard
+          title={"Steam Kit"}
+          img={"./images/steam.png"}
+          desc={"Chemistry starter kit for kids"}
+          gradient={"linear-gradient(#6543EC, #4643EC, #D1008A)"}
+        />
+      </div>
+      <h2 className="text-center font-medium  text-[24px] mb-[10px] pt-5 text-[#EFBA00]">
+        Discover the 'Fantastic, Remarkable' Wonders - Monthly Delivery Awaits!
+      </h2>
     </div>
   );
 }
