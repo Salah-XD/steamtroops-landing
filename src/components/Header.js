@@ -7,26 +7,31 @@ import { BiSolidUser } from "react-icons/bi";
 
 function Header() {
   return (
-    <div className="header">
-      <div className="logo">Lab n box</div>
-      <ul className="inline-block">
-        <li>
+    <div className="header h-[70px] flex bg-[#073B52] items-center px-5 justify-between text-[#fff] ">
+      <div className="logo text-3xl text-[#EFBA00] font-['Nunito',sans-serif]">
+        Lab n Box
+      </div>
+      <ul className="flex items-center gap-8">
+        <li className="flex items-center gap-1 text-l">
           <GoHome />
-          <a href="#"></a>
+          <a href="#">Home</a>
         </li>
-        <li>
+        <li className="flex items-center gap-1 text-l">
           <FaStore />
-          <a href="#"></a>
+          <a href="#">Store</a>
         </li>
-        <li>
+        <li className="flex items-center gap-1 text-l">
           <BsCardList />
-          <a href="#"></a>
+          <a href="#">My Courses</a>
         </li>
-        <li>
+        <li className="flex items-center gap-1 text-l">
           <LuLayoutDashboard />
-          <a href="#"></a>
+          <a href="#">Clan</a>
         </li>
-        <BiSolidUser />
+        <li className="flex items-center gap-1 text-l">
+          <BiSolidUser />
+          <a href="#">SignIn</a>
+        </li>
       </ul>
     </div>
   );
