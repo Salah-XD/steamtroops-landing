@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import Slide from "./components/Slide";
 import Detail from "./components/Detail";
 import Service from "./components/Service";
+import Kit from "./components/Kit";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Slide />
       <Shop />
+      <Kit />
       <Detail />
       <Present />
       <Service />
