@@ -1,7 +1,7 @@
 import React from "react";
 
 function Sbanner() {
-  return <div>Sbanner</div>;
+  return <div className="sbanner"></div>;
 }
 
 export default Sbanner;
