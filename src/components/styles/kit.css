@@ -25,6 +25,7 @@
   opacity: 1;
 }
 .desc {
+  margin-top: 10px;
   font-size: 8;
   font-weight: 100;
   opacity: 0;
