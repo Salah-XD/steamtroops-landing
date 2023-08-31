@@ -1,5 +1,6 @@
 import React from "react";
 import Kcard from "./Kcard";
+import "./styles/kit.css";
 
 function Kit() {
   return (
@@ -30,9 +31,41 @@ function Kit() {
           gradient={"linear-gradient(#6543EC, #4643EC, #D1008A)"}
         />
       </div>
-      <h2 className="text-center font-medium  text-[24px] mb-[10px] pt-5 text-[#EFBA00]">
+      <h2 className="text-center font-medium  text-[24px] mb-[40px] pt-5 text-[#EFBA00]">
         Discover the 'Fantastic, Remarkable' Wonders - Monthly Delivery Awaits!
       </h2>
+      <div className="steps__container flex gap-5 justify-around text-[#fff]">
+        <div className="steps">
+          <h1>1</h1>
+          <div className="sub1">
+            <div className="sub__title">Choose Your Plan</div>
+            <div className="desc text-s">
+              <span>select the Subscription</span> plan that suits your Learning
+              goals and interest
+            </div>
+          </div>
+        </div>
+        <div className="steps">
+          <h1>2</h1>
+          <div className="sub2">
+            <div className="sub__title">Choose Your Plan</div>
+            <div className=" desc">
+              <span>select the Subscription </span>
+              plan that suits your Learning goals and interest
+            </div>
+          </div>
+        </div>
+        <div className="steps">
+          <h1>3</h1>
+          <div className="sub3">
+            <div className="sub__title">Choose Your Plan</div>
+            <div className="desc">
+              <span>select the Subscription </span>plan that suits your Learning
+              goals and interest
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

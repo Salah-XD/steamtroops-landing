@@ -1,0 +1,35 @@
+.steps {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+.steps__container {
+  margin: 0 50px;
+}
+.steps h1 {
+  font-size: 45px;
+  font-weight: 800;
+}
+.sub__title {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.steps .sub1:hover .desc {
+  opacity: 1;
+}
+.steps .sub2:hover .desc {
+  opacity: 1;
+}
+.steps .sub3:hover .desc {
+  opacity: 1;
+}
+.desc {
+  font-size: 8;
+  font-weight: 100;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.desc span {
+  color: #efba00;
+}
