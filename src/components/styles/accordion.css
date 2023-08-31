@@ -13,7 +13,6 @@
   border-radius: 5px;
   cursor: pointer;
   width: 800px;
-  transition: opacity 0.5s ease;
 }
 
 .accordion__faq-heading {
@@ -38,5 +37,17 @@
   margin: 0px;
   padding-bottom: 30px;
   color: var(--text-secondary);
+  animation: slide-up 0.5s ease;
+
   line-height: 1.4;
+}
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
