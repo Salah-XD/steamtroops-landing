@@ -9,8 +9,7 @@ import Slide from "./components/Slide";
 import Detail from "./components/Detail";
 import Service from "./components/Service";
 import Kit from "./components/Kit";
-import Faq from "./components/Faq";
-
+import Accordion from "./components/Accordion";
 function App() {
   return (
     <div className="App">
@@ -21,9 +20,10 @@ function App() {
       <Detail />
       <Present />
       <Service />
-      <Affliation />
       <Testimonial />
-      <Faq />
+      <Affliation />
+
+      <Accordion />
     </div>
   );
 }
