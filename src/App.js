@@ -10,6 +10,8 @@ import Detail from "./components/Detail";
 import Service from "./components/Service";
 import Kit from "./components/Kit";
 import Accordion from "./components/Accordion";
+import Banner from "./components/Banner";
+
 function App() {
   return (
     <div className="App">
@@ -22,8 +24,8 @@ function App() {
       <Service />
       <Testimonial />
       <Affliation />
-
       <Accordion />
+      <Banner />.
     </div>
   );
 }
