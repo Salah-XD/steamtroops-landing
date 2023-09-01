@@ -4,7 +4,7 @@ import "./styles/kit.css";
 
 function Kit() {
   return (
-    <div className="kit bg-[url('https://i.ibb.co/TP5gdT7/grid.png')]">
+    <div className="kit bg-[url('https://i.ibb.co/TP5gdT7/grid.png')] bg-cover">
       <h1 className="text-center font-extrabold text-[24px] mb-[10px] pt-20 text-[#EFBA00]">
         Access Boundless Knowledge with Subscription
       </h1>

@@ -1,0 +1,23 @@
+.ani {
+  animation: slide 1s ease-in-out infinite alternate;
+}
+@keyframes slide {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+
+.ani2 {
+  animation: slide2 1s ease-in-out infinite alternate;
+}
+@keyframes slide2 {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
