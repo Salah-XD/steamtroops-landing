@@ -8,9 +8,27 @@ function Detail() {
         Adventure Awaits Explore, Learn, Play!
       </h1>
       <div className="detail-content flex gap-20 justify-between">
-        <Dcard />
-        <Dcard />
-        <Dcard />
+        <Dcard
+          img={"./images/gifs/phone.gif"}
+          title={"Learn"}
+          desc={
+            "Learn from the best in the industry.Learn from the best in the industry."
+          }
+        />
+        <Dcard
+          img={"./images/gifs/rocket4.gif"}
+          title={"Learn"}
+          desc={
+            "Learn from the best in the industry.Learn from the best in the industry."
+          }
+        />
+        <Dcard
+          img={"./images/gifs/mastercard.gif"}
+          title={"Learn"}
+          desc={
+            "Learn from the best in the industry.Learn from the best in the industry."
+          }
+        />
       </div>
     </div>
   );
