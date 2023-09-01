@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Shop from "./components/Shop";
 import Present from "./components/Present";
@@ -11,6 +10,7 @@ import Service from "./components/Service";
 import Kit from "./components/Kit";
 import Accordion from "./components/Accordion";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,7 +25,8 @@ function App() {
       <Testimonial />
       <Affliation />
       <Accordion />
-      <Banner />.
+      <Banner />
+      <Footer />
     </div>
   );
 }
