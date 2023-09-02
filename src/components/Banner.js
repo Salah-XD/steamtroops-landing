@@ -3,7 +3,7 @@ import React from "react";
 function Banner() {
   return (
     <div className="relative">
-      <div className="main absolute top-[35%] ml-[80px] w-[100%]">
+      <div className="main absolute top-[35%] ml-[80px] w-[100%] mb-0">
         <h1 className="text-[#033043] text-xl">
           Join our Lab and Box!{" "}
           <strong className="italic font-bold text-2xl">workshop</strong>

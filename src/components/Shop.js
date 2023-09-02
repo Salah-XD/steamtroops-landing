@@ -3,7 +3,11 @@ import Card from "./Card";
 import PageNextIcon from "@rsuite/icons/PageNext";
 function Shop() {
   return (
-    <div className="bg-[#F8F5EC] py-[40px]">
+    <div className="bg-[#F8F5EC] py-[40px] relative">
+      <img className="absolute" src="./images/gifs/react.gif" alt="" />
+      <img className="absolute" src="./images/gifs/chemical.gif" alt="" />
+      <img className="absolute" src="./images/gifs/chemical2.gif" alt="" />
+      <img className="absolute" src="./images/gifs/blob.gif" alt="" />
       <h1 className="text-center font-extrabold text-[24px] mb-4">
         Your Gateway To Knowledge And Innovation
       </h1>

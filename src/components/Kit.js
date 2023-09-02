@@ -4,7 +4,10 @@ import "./styles/kit.css";
 
 function Kit() {
   return (
-    <div className="kit bg-[url('https://i.ibb.co/TP5gdT7/grid.png')] bg-cover">
+    <div className="kit bg-[url('https://i.ibb.co/bzrP4kq/grid2.png')] relative">
+      <img className="absolute" src="./images/gifs/blob.gif" alt="" />
+      <img className="absolute" src="./images/gifs/wow.gif" alt="" />
+      <img className="absolute" src="./images/gifs/dipole.gif" alt="" />
       <h1 className="text-center font-extrabold text-[24px] mb-[10px] pt-20 text-[#EFBA00]">
         Access Boundless Knowledge with Subscription
       </h1>
