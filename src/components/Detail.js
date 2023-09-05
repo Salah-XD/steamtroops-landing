@@ -7,7 +7,7 @@ function Detail() {
       <h1 className="text-center font-extrabold text-[24px] mb-[70px]">
         Adventure Awaits Explore, Learn, Play!
       </h1>
-      <div className="detail-content flex gap-20 justify-between">
+      <div className="detail-content flex flex-col sm:flex-row gap-20 justify-between">
         <Dcard
           img={"./images/gifs/phone.gif"}
           title={"Learn"}

@@ -1,6 +1,27 @@
 import React from "react";
 import Card from "./Card";
 import PageNextIcon from "@rsuite/icons/PageNext";
+import Carousel from "react-multi-carousel";
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 5,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 3,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 function Shop() {
   return (
     <div className="bg-[#F8F5EC] py-[40px] relative">
@@ -10,7 +31,8 @@ function Shop() {
       <p className="text-center font-light text-sm text-[#777] mb-7">
         Discover! Shop! Elevate Your Learning With One Time shop!
       </p>
-      <div className="card flex justify-center gap-8 relative z-20">
+
+      <Carousel responsive={responsive} className="img ">
         <Card
           img={"./images/card1.svg"}
           title={"webby DIY Chemistry Kit"}
@@ -46,14 +68,15 @@ function Shop() {
           price={1000}
           originalPrice={2000}
         />
-      </div>
+      </Carousel>
+
       <img
         className="absolute w-[100px] top-[15%] left-[4%]"
         src="./images/gifs/react.gif"
         alt=""
       />
       <img
-        className="absolute w-[100px] top-[15%] left-[90%] "
+        className="absolute w-[100px] top-[15%] left-[90%] hidden sm:block "
         src="./images/gifs/react.gif"
         alt=""
       />
@@ -63,7 +86,7 @@ function Shop() {
         alt=""
       />
       <img
-        className="absolute top-[65%] left-[90%] w-[200px]"
+        className="absolute top-[65%] left-[90%] w-[200px] hidden sm:block"
         src="./images/gifs/chemical2.gif"
         alt=""
       />

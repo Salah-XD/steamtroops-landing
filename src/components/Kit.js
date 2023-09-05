@@ -11,7 +11,7 @@ function Kit() {
         alt=""
       />
       <img
-        className="absolute top-[65%] left-[90%]"
+        className="absolute top-[65%] left-[90%] hidden sm:block"
         src="./images/gifs/blob.gif"
         alt=""
       />
@@ -31,7 +31,7 @@ function Kit() {
       <p className="text-center font-light mt-2 text-[#fff]">
         Choose Your Theme
       </p>
-      <div className="cardsss flex justify-center gap-[60px] my-10 relative">
+      <div className="cardsss flex flex-col sm:flex-row justify-center gap-[60px] my-10 relative">
         <Kcard
           title={"Chemistry Kit"}
           img={"./images/chem.png"}
@@ -54,7 +54,7 @@ function Kit() {
       <h2 className="text-center font-medium  text-[20px] mb-[40px] pt-5 text-[#EFBA00]">
         Discover the 'Fantastic, Remarkable' Wonders - Monthly Delivery Awaits!
       </h2>
-      <div className="steps__container flex justify-between text-[#fff] flex-nowrap pb-[60px]">
+      <div className="steps__container flex flex-col sm:flex-row justify-between text-[#fff] flex-nowrap pb-[60px]">
         <div className="steps">
           <h1>1</h1>
           <div className="sub1">
