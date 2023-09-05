@@ -58,7 +58,7 @@ function Shop() {
         alt=""
       />
       <img
-        className="absolute left-[-40px] top-[50%] w-[150px]"
+        className="absolute left-[-70px] top-[50%] w-[150px]"
         src="./images/gifs/chemical.gif"
         alt=""
       />
