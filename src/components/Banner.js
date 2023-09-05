@@ -83,7 +83,7 @@ function Banner() {
           Join now
         </a>
       </div>
-      <img src="./images/banner.png" alt="" />
+      <img src="./images/banner2.png" alt="" />
     </div>
   );
 }

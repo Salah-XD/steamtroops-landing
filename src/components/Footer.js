@@ -150,6 +150,7 @@ function Footer() {
                   className="footer-social-icon-svg"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 30 30"
+                  style={{ width: "20px", height: "20px" }}
                 >
                   <path
                     className="footer-social-icon-path"
@@ -167,6 +168,7 @@ function Footer() {
                   className="footer-social-icon-svg"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 26 26"
+                  style={{ width: "20px", height: "20px" }}
                 >
                   <path
                     className="footer-social-icon-path"
@@ -184,6 +186,7 @@ function Footer() {
                   className="footer-social-icon-svg"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 30 30"
+                  style={{ width: "20px", height: "20px" }}
                 >
                   <path
                     className="footer-social-icon-path"
@@ -197,6 +200,7 @@ function Footer() {
                   className="footer-social-icon-svg"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 32 32"
+                  style={{ width: "30px", height: "30px" }}
                 >
                   <path
                     className="footer-social-icon-path"
@@ -211,7 +215,7 @@ function Footer() {
               <p className="footer-copyright-text">
                 <a className="footer-copyright-link" href="#" target="_self">
                   {" "}
-                  ©2020. | Designed By: Pooja Nahelia. | All rights reserved.{" "}
+                  ©2023| All rights reserved.{" "}
                 </a>
               </p>
             </div>

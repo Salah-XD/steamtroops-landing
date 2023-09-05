@@ -5,16 +5,33 @@ import "./styles/kit.css";
 function Kit() {
   return (
     <div className="kit bg-[url('https://i.ibb.co/bzrP4kq/grid2.png')] relative">
-      <img className="absolute" src="./images/gifs/blob.gif" alt="" />
-      <img className="absolute" src="./images/gifs/wow.gif" alt="" />
-      <img className="absolute" src="./images/gifs/dipole.gif" alt="" />
+      <img
+        className="absolute top-[8%] left-0"
+        src="./images/gifs/blob.gif"
+        alt=""
+      />
+      <img
+        className="absolute top-[65%] left-[90%]"
+        src="./images/gifs/blob.gif"
+        alt=""
+      />
+      <img
+        className="absolute top-[30%] left-[30%]"
+        src="./images/gifs/wow.gif"
+        alt=""
+      />
+      <img
+        className="absolute top-[40%] left-[60%]"
+        src="./images/gifs/dipole.gif"
+        alt=""
+      />
       <h1 className="text-center font-extrabold text-[24px] mb-[10px] pt-20 text-[#EFBA00]">
         Access Boundless Knowledge with Subscription
       </h1>
       <p className="text-center font-light mt-2 text-[#fff]">
         Choose Your Theme
       </p>
-      <div className="cardsss flex justify-center gap-[60px] my-10">
+      <div className="cardsss flex justify-center gap-[60px] my-10 relative">
         <Kcard
           title={"Chemistry Kit"}
           img={"./images/chem.png"}
