@@ -32,7 +32,44 @@ function Shop() {
       <p className="text-center font-light text-sm text-[#777] mb-7 relative z-10">
         Discover! Shop! Elevate Your Learning With One Time shop!
       </p>
-      <center>
+      <div className="card flex  items-center justify-center gap-8 relative z-20 flex-wrap ">
+        <Card
+          img={"./images/card1.svg"}
+          title={"webby DIY Chemistry Kit"}
+          offer={50}
+          price={1000}
+          originalPrice={2000}
+        />
+        <Card
+          img={"./images/card1.svg"}
+          title={"webby DIY Chemistry Kit"}
+          offer={50}
+          price={1000}
+          originalPrice={2000}
+        />
+        <Card
+          img={"./images/card1.svg"}
+          title={"webby DIY Chemistry Kit"}
+          offer={50}
+          price={1000}
+          originalPrice={2000}
+        />
+        <Card
+          img={"./images/card1.svg"}
+          title={"webby DIY Chemistry Kit"}
+          offer={50}
+          price={1000}
+          originalPrice={2000}
+        />
+        <Card
+          img={"./images/card1.svg"}
+          title={"webby DIY Chemistry Kit"}
+          offer={50}
+          price={1000}
+          originalPrice={2000}
+        />
+      </div>
+      {/* <center>
         <Carousel responsive={responsive} className="img  z-20 ">
           <Card
             img={"./images/card1.svg"}
@@ -70,7 +107,7 @@ function Shop() {
             originalPrice={2000}
           />
         </Carousel>
-      </center>
+      </center> */}
 
       <img
         className="absolute w-[100px] top-[15%] left-[4%]"

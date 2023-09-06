@@ -53,13 +53,13 @@ function Accordion() {
 
   return (
     <>
-      <div className="container flex justify-center flex-col items-center py-[60px]">
+      <div className="flex justify-center flex-col items-center py-[60px]">
         <div className="text-center">
           <span className="accordion__title text-center font-extrabold text-[24px] mb-[70px]">
             Frequently asked questions
           </span>
         </div>
-        <div className="accordion__faq mt-[60px]">
+        <div className="accordion__faq mt-[60px]">  
           {dataCollection.map((item, index) => (
             <div key={index} onClick={() => toggleAccordion(index)}>
               <div className="accordion__faq-heading">

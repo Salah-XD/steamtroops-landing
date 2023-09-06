@@ -51,6 +51,25 @@ function Slide() {
 
   return (
     <div className="relative">
+      <div className="main absolute z-20 top-0 left-0 mb-2 w-full h-[250px] flex items-center justify-center ">
+        <div>
+        <div className="text-5xl font-bold text-[#fff] text-center font-['Nunito',sans-serif] mb-3">
+          Lab n <span className="text-[#EFBA00]">Box</span>
+        </div>
+        <div className="text-2xl text-[#fff] text-center mb-[30px]">
+          Unleash Your{" "}
+          <span className="text-[#EFBA00] font-semibold">Inner Explorer!</span>
+        </div>
+        <a
+          href="#"
+          className="text-l ml-3  text-[#fff] text-center bg-[#EFBA00] p-4 rounded-[5px] shadow-2xl"
+          >
+          Join the Lab n Box Community &#8594;
+        </a>
+          </div>
+      </div>
+      <div className="max-w-[100%] h-[250px] w-full m-auto  relative group">
+        {/* <div
       <center>
         <div className="mainslidecontent absolute z-20 left-[40%] top-5 mb-2">
           <div className="maintitle text-5xl font-bold text-[#fff] font-['Nunito',sans-serif] mb-3">
@@ -87,7 +106,7 @@ function Slide() {
             className="w-full bg-center bg-cover duration-500 opacity-70"
           ></div>
 
-          {/* Left Arrow */}
+          {/* Left Arrow */} 
           <div className="hidden group-hover:block absolute top-[40%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
             <BsChevronCompactLeft onClick={prevSlide} size={30} />
           </div>
@@ -116,7 +135,7 @@ function Slide() {
             ))}
           </div>
         </div>
-      </center>
+      {/* </center> */}
     </div>
   );
 }

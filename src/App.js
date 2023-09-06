@@ -15,14 +15,14 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      <Header />
       <Slide />
       <Shop />
       <Kit />
       <Detail />
       <Present />
-      {/* <Service /> */}
-      {/* <Testimonial /> */}
+      <Service />
+      <Testimonial />
       <Affliation />
       <Accordion />
       <Banner />

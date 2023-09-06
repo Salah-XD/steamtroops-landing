@@ -34,7 +34,36 @@ function Affliation() {
       <h2 className="text-center font-extrabold text-[24px] mb-10">
         Our Affliation
       </h2>
-      <center>
+      <div className="img flex justify-center gap-5 flex-wrap   ">
+      {/* <Carousel responsive={responsive} className="img "> */}
+        <img
+          src="./images/image 4.png"
+          alt=""
+          className="w-[220px] object-contain  	bg-[#fff] p-5 shadow-xl "
+        />
+        <img
+          src="./images/image 5.png"
+          alt=""
+          className="w-[220px] object-contain 	bg-[#fff] p-5 shadow-xl"
+        />
+        <img
+          src="./images/image 6.png"
+          alt=""
+          className="w-[220px] object-contain	bg-[#fff] p-5 shadow-xl"
+        />
+        <img
+          src="./images/image 7.png"
+          alt=""
+          className="w-[220px] object-contain	bg-[#fff] p-5 shadow-xl"
+        />
+        <img
+          src="./images/image 8.png"
+          alt=""
+          className="w-[220px] object-contain	bg-[#fff] p-5 shadow-xl"
+        />
+      {/* </Carousel> */} 
+      </div>
+      {/* <center>
         <Carousel responsive={responsive} infinite={true} className="img ">
           <img
             src="./images/image 4.png"
@@ -62,7 +91,7 @@ function Affliation() {
             className="w-[220px] object-contain	bg-[#fff] p-5 shadow-xl rounded-lg"
           />
         </Carousel>
-      </center>
+      </center> */}
     </div>
   );
 }

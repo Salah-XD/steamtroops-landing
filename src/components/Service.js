@@ -39,8 +39,8 @@ function Service() {
       </h1>
 
       {/* ---------------toggle section---------- */}
-      <div className="flex justify-center mb-10">
-        <div className="toggle__buttons inline-flex items-center gap-6 p-1 border border-[#777] rounded-[10px]">
+      <div className="flex justify-center mb-10 ">
+        <div className="toggle__buttons inline-flex flex-col md:flex-row items-center gap-6 p-1 border border-[#777] rounded-[10px]">
           <div
             onClick={() => updateToggle(1)}
             className="event_btn bg-[#fae36d] px-32 cursor-pointer hover:bg-[#7773] transition-all duration-500 py-4 rounded-[10px] font-[550]"
@@ -63,7 +63,7 @@ function Service() {
       </div>
       {/* --------tab1---------------- */}
       <div className={toggle === 1 ? "show_content" : "events"}>
-        <div className=" relative h-[500px] top-[30%]">
+        <div className="relative h-[500px] bg-[#fae36d] top-[30%] flex justify-center">
           <img
             className="absolute z-20 w-[350px] left-[72%]"
             src="./images/events.png"
@@ -71,7 +71,7 @@ function Service() {
           />
           <h1 className=" top-[10%] absolute z-10 text-5xl font-[1000] text-center leading-relaxed text-[#fff] left-[30%]">
             Join{" "}
-            <span className="italic text-[#514900]"> Thrilling Events </span> at{" "}
+            <span className="italic text-[#514900] "> Thrilling Events </span> at{" "}
             <br />
             <span className="italic ">
               {" "}
@@ -89,7 +89,7 @@ function Service() {
             Join now
           </a>
           <img
-            className="scale-105 absolute"
+            className="object-cover"
             src="./images/yellow.png"
             alt=""
           />
