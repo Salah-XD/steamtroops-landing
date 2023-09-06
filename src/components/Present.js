@@ -4,7 +4,7 @@ import "./styles/present.css";
 function Present() {
   return (
     <div className="present">
-      <img
+      {/* <img
         style={{
           left: "93%",
           position: "absolute",
@@ -14,7 +14,7 @@ function Present() {
         }}
         src="./images/vector.png"
         alt=""
-      />
+      /> */}
       <img
         style={{
           left: "75%",
@@ -50,7 +50,7 @@ function Present() {
       />
       <div className="flex flex-col md:flex-row py-10"> 
 
-        <div className="content p-5 md:pl-[40px]">
+        <div className="content p-5 md:pl-[40px] ">
           <h1>
             Presenting Us <span>!</span>
           </h1>
@@ -72,6 +72,7 @@ function Present() {
         {/* <a href="#">Learn More about us &#8594;</a> */}
       </div>
       {/* <div className="pic ">
+      <div className="pic flex-col sm:flex-row">
         <img className="p1" src="./images/m3.png" alt="pic" />
         <img className="p2" src="./images/m2.png" alt="pic" />
         <img className="p3" src="./images/m1.png" alt="pic" />
