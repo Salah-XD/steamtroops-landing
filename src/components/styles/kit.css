@@ -34,3 +34,14 @@
 .desc span {
   color: #efba00;
 }
+@media(max-width:700px){
+  .steps .sub1 .desc{
+    opacity: 1;
+  }
+  .steps .sub2 .desc{
+    opacity: 1;
+  }
+  .steps .sub3 .desc{
+    opacity: 1;
+  }
+}

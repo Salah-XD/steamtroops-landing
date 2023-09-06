@@ -23,7 +23,7 @@ a {
   width: 100%;
 }
 .footer-wave-path {
-  fill: #fffff2;
+  fill: #efba00;
 }
 
 .footer-content {
@@ -253,6 +253,9 @@ a {
     padding: 40px 15px 1050px;
     position: relative;
   }
+  .footer-wave-path {
+    fill: #fff;
+  }
 }
 @media (min-width: 600px) and (max-width: 800px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
@@ -262,6 +265,9 @@ a {
     max-width: 1230px;
     padding: 40px 15px 1050px;
     position: relative;
+  }
+  .footer-wave-path {
+    fill: #efba00;
   }
 }
 @media (min-width: 801px) {
