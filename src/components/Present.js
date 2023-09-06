@@ -48,9 +48,9 @@ function Present() {
         src="./images/vector3.png"
         alt=""
       />
-      <div className="flex flex-col md:flex-row"> 
+      <div className="flex flex-col md:flex-row py-10"> 
 
-        <div className="content">
+        <div className="content p-5 md:pl-[40px]">
           <h1>
             Presenting Us <span>!</span>
           </h1>
