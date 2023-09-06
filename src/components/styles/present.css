@@ -55,3 +55,8 @@
 .pic .p3:hover {
   transform: rotate(15deg) scale(1.3);
 }
+@media (max-width: 500px) {
+  .present {
+    padding: 30px;
+  }
+}
