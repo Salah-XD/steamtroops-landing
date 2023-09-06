@@ -279,7 +279,11 @@ a {
 @media (min-width: 1281px) {
   /* hi-res laptops and desktops */
 }
-
+@media (max-width: 500px) {
+  .footer-wave-path {
+    fill: #fff;
+  }
+}
 @media (min-width: 760px) {
   .footer-content {
     margin-left: auto;

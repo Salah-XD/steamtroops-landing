@@ -16,14 +16,13 @@ const responsive = {
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 1,
+    items: 2,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
     items: 1,
   },
 };
-
 function Kit() {
   return (
     <div className="kit bg-[url('https://i.ibb.co/bzrP4kq/grid2.png')] relative">
@@ -53,33 +52,9 @@ function Kit() {
       <p className="text-center font-light mt-2 text-[#fff]">
         Choose Your Theme
       </p>
-      <div className="cardsss flex items-center justify-center gap-[60px] my-10 relative flex-wrap ">
-        <Kcard
-          title={"Chemistry Kit"}
-          img={"./images/chem.png"}
-          desc={"Chemistry starter kit for kids"}
-          gradient={"linear-gradient(#AE491E, #E3B40F)"}
-        />
-        <Kcard
-          title={"Biology Kit"}
-          img={"./images/bio.png"}
-          desc={"Biology starter kit for kids"}
-          gradient={"linear-gradient(#DDD510, #7DAF12)"}
-        />
-        <Kcard
-          title={"Steam Kit"}
-          img={"./images/steam.png"}
-          desc={"Chemistry starter kit for kids"}
-          gradient={"linear-gradient(#6543EC, #4643EC, #D1008A)"}
-        />
-      </div>
-      <h2 className="text-center font-medium  text-[20px] mb-[40px] pt-5 text-[#EFBA00]">
-        Discover the 'Fantastic, Remarkable' Wonders - Monthly Delivery Awaits!
-      </h2>
-      <div className="steps__container flex justify-between text-[#fff] flex-nowrap pb-[60px] flex-col md:flex-row ">
-      {/* <center>
+      <center>
         <div className="cardsss flex flex-col sm:flex-row justify-center gap-[60px] my-10 relative">
-          <Carousel responsive={responsive}>
+          <Carousel responsive={responsive} className="img ">
             <Kcard
               title={"Chemistry Kit"}
               img={"./images/chem.png"}
@@ -100,7 +75,7 @@ function Kit() {
             />
           </Carousel>
         </div>
-      </center> */}
+      </center>
       <h2 className="text-center font-medium  text-[20px] mb-[40px] pt-5 text-[#EFBA00]">
         Discover the 'Fantastic, Remarkable' Wonders - Monthly Delivery Awaits!
       </h2>
@@ -141,7 +116,6 @@ function Kit() {
         </div>
       </div>
     </div>
-      </div>
   );
 }
 

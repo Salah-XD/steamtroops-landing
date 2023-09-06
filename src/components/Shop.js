@@ -16,7 +16,7 @@ const responsive = {
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2,
+    items: 3,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -26,51 +26,18 @@ const responsive = {
 function Shop() {
   return (
     <div className="bg-[#F8F5EC] py-[40px] relative ">
-      <h1 className="text-center font-extrabold text-[24px] mb-4 relative z-10">
+      <h1 className="text-center font-extrabold text-[24px] mb-4">
         Your Gateway To Knowledge And Innovation
       </h1>
-      <p className="text-center font-light text-sm text-[#777] mb-7 relative z-10">
+      <p className="text-center font-light text-sm text-[#777] mb-7">
         Discover! Shop! Elevate Your Learning With One Time shop!
       </p>
-      <div className="card flex  items-center justify-center gap-8 relative z-20 flex-wrap ">
-        <Card
-          img={"./images/card1.svg"}
-          title={"webby DIY Chemistry Kit"}
-          offer={50}
-          price={1000}
-          originalPrice={2000}
-        />
-        <Card
-          img={"./images/card1.svg"}
-          title={"webby DIY Chemistry Kit"}
-          offer={50}
-          price={1000}
-          originalPrice={2000}
-        />
-        <Card
-          img={"./images/card1.svg"}
-          title={"webby DIY Chemistry Kit"}
-          offer={50}
-          price={1000}
-          originalPrice={2000}
-        />
-        <Card
-          img={"./images/card1.svg"}
-          title={"webby DIY Chemistry Kit"}
-          offer={50}
-          price={1000}
-          originalPrice={2000}
-        />
-        <Card
-          img={"./images/card1.svg"}
-          title={"webby DIY Chemistry Kit"}
-          offer={50}
-          price={1000}
-          originalPrice={2000}
-        />
-      </div>
-      {/* <center>
-        <Carousel responsive={responsive} className="img  z-20 ">
+      <center>
+        <Carousel
+          responsive={responsive}
+          infinite={true}
+          className="img flex justify-center z-20 "
+        >
           <Card
             img={"./images/card1.svg"}
             title={"webby DIY Chemistry Kit"}
@@ -107,7 +74,7 @@ function Shop() {
             originalPrice={2000}
           />
         </Carousel>
-      </center> */}
+      </center>
 
       <img
         className="absolute w-[100px] top-[15%] left-[4%]"
