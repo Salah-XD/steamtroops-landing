@@ -50,7 +50,8 @@ function Slide() {
 
   return (
     <div className="relative">
-      <div className="main absolute z-20 left-[40%] top-5 mb-2">
+      <div className="main absolute z-20 top-0 left-0 mb-2 w-full h-[250px] flex items-center justify-center">
+        <div>
         <div className="text-5xl font-bold text-[#fff] text-center font-['Nunito',sans-serif] mb-3">
           Lab n <span className="text-[#EFBA00]">Box</span>
         </div>
@@ -61,9 +62,10 @@ function Slide() {
         <a
           href="#"
           className="text-l ml-3  text-[#fff] text-center bg-[#EFBA00] p-4 rounded-[5px] shadow-2xl"
-        >
+          >
           Join the Lab n Box Community &#8594;
         </a>
+          </div>
       </div>
       <div className="max-w-[100%] h-[250px] w-full m-auto  relative group">
         {/* <div
