@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import PageNextIcon from "@rsuite/icons/PageNext";
 import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 const responsive = {
   superLargeDesktop: {
@@ -15,7 +16,7 @@ const responsive = {
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 3,
+    items: 2,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -24,51 +25,52 @@ const responsive = {
 };
 function Shop() {
   return (
-    <div className="bg-[#F8F5EC] py-[40px] relative">
-      <h1 className="text-center font-extrabold text-[24px] mb-4">
+    <div className="bg-[#F8F5EC] py-[40px] relative ">
+      <h1 className="text-center font-extrabold text-[24px] mb-4 relative z-10">
         Your Gateway To Knowledge And Innovation
       </h1>
-      <p className="text-center font-light text-sm text-[#777] mb-7">
+      <p className="text-center font-light text-sm text-[#777] mb-7 relative z-10">
         Discover! Shop! Elevate Your Learning With One Time shop!
       </p>
-
-      <Carousel responsive={responsive} className="img ">
-        <Card
-          img={"./images/card1.svg"}
-          title={"webby DIY Chemistry Kit"}
-          offer={50}
-          price={1000}
-          originalPrice={2000}
-        />
-        <Card
-          img={"./images/card1.svg"}
-          title={"webby DIY Chemistry Kit"}
-          offer={50}
-          price={1000}
-          originalPrice={2000}
-        />
-        <Card
-          img={"./images/card1.svg"}
-          title={"webby DIY Chemistry Kit"}
-          offer={50}
-          price={1000}
-          originalPrice={2000}
-        />
-        <Card
-          img={"./images/card1.svg"}
-          title={"webby DIY Chemistry Kit"}
-          offer={50}
-          price={1000}
-          originalPrice={2000}
-        />
-        <Card
-          img={"./images/card1.svg"}
-          title={"webby DIY Chemistry Kit"}
-          offer={50}
-          price={1000}
-          originalPrice={2000}
-        />
-      </Carousel>
+      <center>
+        <Carousel responsive={responsive} className="img  z-20 ">
+          <Card
+            img={"./images/card1.svg"}
+            title={"webby DIY Chemistry Kit"}
+            offer={50}
+            price={1000}
+            originalPrice={2000}
+          />
+          <Card
+            img={"./images/card1.svg"}
+            title={"webby DIY Chemistry Kit"}
+            offer={50}
+            price={1000}
+            originalPrice={2000}
+          />
+          <Card
+            img={"./images/card1.svg"}
+            title={"webby DIY Chemistry Kit"}
+            offer={50}
+            price={1000}
+            originalPrice={2000}
+          />
+          <Card
+            img={"./images/card1.svg"}
+            title={"webby DIY Chemistry Kit"}
+            offer={50}
+            price={1000}
+            originalPrice={2000}
+          />
+          <Card
+            img={"./images/card1.svg"}
+            title={"webby DIY Chemistry Kit"}
+            offer={50}
+            price={1000}
+            originalPrice={2000}
+          />
+        </Carousel>
+      </center>
 
       <img
         className="absolute w-[100px] top-[15%] left-[4%]"

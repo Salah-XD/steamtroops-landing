@@ -21,8 +21,8 @@ function App() {
       <Kit />
       <Detail />
       <Present />
-      <Service />
-      <Testimonial />
+      {/* <Service /> */}
+      {/* <Testimonial /> */}
       <Affliation />
       <Accordion />
       <Banner />
