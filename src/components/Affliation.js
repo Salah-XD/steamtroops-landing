@@ -6,7 +6,7 @@ function Affliation() {
       <h2 className="text-center font-extrabold text-[24px] mb-10">
         Our Affliation
       </h2>
-      <div className="img flex justify-center gap-5 ">
+      <div className="img flex justify-center gap-5 flex-wrap ">
         <img
           src="./images/image 4.png"
           alt=""

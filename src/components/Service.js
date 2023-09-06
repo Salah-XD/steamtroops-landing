@@ -39,8 +39,8 @@ function Service() {
       </h1>
 
       {/* ---------------toggle section---------- */}
-      <div className="flex justify-center mb-10">
-        <div className="toggle__buttons inline-flex items-center gap-6 p-1 border border-[#777] rounded-[10px]">
+      <div className="flex justify-center mb-10 ">
+        <div className="toggle__buttons inline-flex flex-col md:flex-row items-center gap-6 p-1 border border-[#777] rounded-[10px]">
           <div
             onClick={() => updateToggle(1)}
             className="event_btn bg-[#fae36d] px-32 cursor-pointer hover:bg-[#7773] transition-all duration-500 py-4 rounded-[10px] font-[550]"

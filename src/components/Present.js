@@ -48,24 +48,26 @@ function Present() {
         src="./images/vector3.png"
         alt=""
       />
+      <div className="flex flex-col md:flex-row"> 
 
-      <div className="content">
-        <h1>
-          Presenting Us <span>!</span>
-        </h1>
-        <div className="ctext">
-          Revolutionizing e-learning with{" "}
-          <span>
-            Interactive courses, Practical kits, and a Vibrant community
-          </span>
-          for hands-on virtual learning experiences
+        <div className="content">
+          <h1>
+            Presenting Us <span>!</span>
+          </h1>
+          <div className="ctext">
+            Revolutionizing e-learning with{" "}
+            <span>
+              Interactive courses, Practical kits, and a Vibrant community
+            </span>
+            for hands-on virtual learning experiences
+          </div>
+          <a href="#">Learn More about us &#8594;</a>
         </div>
-        <a href="#">Learn More about us &#8594;</a>
-      </div>
-      <div className="pic">
-        <img className="p1" src="./images/m3.png" alt="pic" />
-        <img className="p2" src="./images/m2.png" alt="pic" />
-        <img className="p3" src="./images/m1.png" alt="pic" />
+        <div className="pic flex flex-wrap justify-center">
+          <img className="p1" src="./images/m3.png" alt="pic" />
+          <img className="p2" src="./images/m2.png" alt="pic" />
+          <img className="p3" src="./images/m1.png" alt="pic" />
+        </div>
       </div>
     </div>
   );

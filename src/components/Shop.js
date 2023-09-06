@@ -10,7 +10,7 @@ function Shop() {
       <p className="text-center font-light text-sm text-[#777] mb-7">
         Discover! Shop! Elevate Your Learning With One Time shop!
       </p>
-      <div className="card flex justify-center gap-8 relative z-20">
+      <div className="card flex  items-center justify-center gap-8 relative z-20 flex-wrap">
         <Card
           img={"./images/card1.svg"}
           title={"webby DIY Chemistry Kit"}
