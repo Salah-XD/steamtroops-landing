@@ -69,13 +69,13 @@ function Present() {
           <img className="p3" src="./images/m1.png" alt="pic" />
         </div>
 
-        <a href="#">Learn More about us &#8594;</a>
+        {/* <a href="#">Learn More about us &#8594;</a> */}
       </div>
-      <div className="pic ">
+      {/* <div className="pic ">
         <img className="p1" src="./images/m3.png" alt="pic" />
         <img className="p2" src="./images/m2.png" alt="pic" />
         <img className="p3" src="./images/m1.png" alt="pic" />
-      </div>
+      </div> */}
     </div>
   );
 }
