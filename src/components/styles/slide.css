@@ -1,0 +1,23 @@
+@media (max-width: 500px) {
+  .mainslidecontent {
+    margin-top: 20px;
+    left: 0%;
+    margin-left: 20px;
+    text-align: left;
+  }
+  .maintitle {
+    font-size: 40px;
+  }
+  .maindesc {
+    font-size: 21px;
+  }
+  .mainbtn {
+    padding: 8px;
+  }
+  .slide_dot {
+    left: 40%;
+  }
+  .mainbtn {
+    margin-left: 0;
+  }
+}
