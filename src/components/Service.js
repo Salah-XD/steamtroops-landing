@@ -63,7 +63,7 @@ function Service() {
       </div>
       {/* --------tab1---------------- */}
       <div className={toggle === 1 ? "show_content" : "events"}>
-        <div className=" relative h-[500px] top-[30%]">
+        <div className="relative h-[500px] bg-[#fae36d] top-[30%] flex justify-center">
           <img
             className="absolute z-20 w-[350px] left-[72%]"
             src="./images/events.png"
@@ -71,7 +71,7 @@ function Service() {
           />
           <h1 className=" top-[10%] absolute z-10 text-5xl font-[1000] text-center leading-relaxed text-[#fff] left-[30%]">
             Join{" "}
-            <span className="italic text-[#514900]"> Thrilling Events </span> at{" "}
+            <span className="italic text-[#514900] "> Thrilling Events </span> at{" "}
             <br />
             <span className="italic ">
               {" "}
@@ -89,7 +89,7 @@ function Service() {
             Join now
           </a>
           <img
-            className="scale-105 absolute"
+            className="object-cover"
             src="./images/yellow.png"
             alt=""
           />
