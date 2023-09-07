@@ -11,15 +11,19 @@ import Kit from "./components/Kit";
 import Accordion from "./components/Accordion";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
-import Prelaunch from "./components/Prelaunch";
 import Newsletter from "./components/Newsletter";
 import Incubation from "./components/Incubation";
+import Prelaunch from "./components/Prelaunch";
 
 function App() {
+  const timeTillDate = '2023-10-31T23:59:59'; // Specify your final date and time here
+  const timeFormat = 'YYYY-MM-DDTHH:mm:ss';
+
   return (
     <div className="App">
       <Header />
-      <Prelaunch />
+      <Prelaunch timeTillDate={timeTillDate} timeFormat={timeFormat} />
+
       {/* <Slide /> */}
       <Shop />
       <Kit />
