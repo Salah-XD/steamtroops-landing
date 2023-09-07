@@ -74,7 +74,7 @@ const Prelaunch = ({ timeTillDate, timeFormat }) => {
       <center>
         <div className='countdown-wrapper'>
 
-          <div className="prelaunch py-10">
+          <div className="prelaunch py-10 px-5">
             <div>
               <small className=" text-lg">Introducing</small>
               <img src="./images/logo.png" alt="logo" className="w-[400px] my-7" />
@@ -84,7 +84,7 @@ const Prelaunch = ({ timeTillDate, timeFormat }) => {
               <h2>Launching in</h2>
 
               {/* time starts */}
-              <div className='flex items-center justify-center'>
+              <div className='flex items-center justify-center flex-wrap '>
 
               {days && (
                 <div className='countdown-item'>
