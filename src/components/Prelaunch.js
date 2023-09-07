@@ -56,6 +56,9 @@ function CountdownTimer() {
           The most anticipated Immersive STEM Educational Kit
         </h1>
         <h2>Launching in</h2>
+
+        {/* time starts */}
+
         <div className="countdown flex justify-center items-center gap-5">
           <div className="countdown__days">
             <div className="number text-3xl">{days}</div>
@@ -77,6 +80,9 @@ function CountdownTimer() {
             <span>Seconds</span>
           </div>
         </div>
+
+        {/* timer ends */}
+
         <h1 className="mb-4">
           pre-book for <strike> ₹ 200</strike>{" "}
           <span className="text-red">Free *</span>{" "}
