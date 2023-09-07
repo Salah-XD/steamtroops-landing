@@ -11,21 +11,30 @@ import Kit from "./components/Kit";
 import Accordion from "./components/Accordion";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
+import Prelaunch from "./components/Prelaunch";
+import Newsletter from "./components/Newsletter";
+import Incubation from "./components/Incubation";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Slide />
+      <Prelaunch />
+      {/* <Slide /> */}
       <Shop />
       <Kit />
       <Detail />
-      <Present />
-      <Service />
-      <Testimonial />
       <Affliation />
+      <Incubation />
+
+      <Present />
+      {/* <Service /> */}
+      {/* <Testimonial /> */}
+
       <Accordion />
+      <Newsletter />
       <Banner />
+
       <Footer />
     </div>
   );

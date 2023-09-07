@@ -8,15 +8,15 @@ const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
-    items: 5,
+    items: 6,
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 5,
+    items: 6,
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 3,
+    items: 2,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -29,49 +29,58 @@ function Shop() {
       <h1 className="text-center font-extrabold text-[24px] mb-4">
         Your Gateway To Knowledge And Innovation
       </h1>
-      <p className="text-center font-light text-sm text-[#777] mb-7">
+      <p className=" relative z-10 text-center font-light text-sm text-[#777] mb-7">
         Discover! Shop! Elevate Your Learning With One Time shop!
       </p>
       <center>
-        <Carousel
-          responsive={responsive}
-          infinite={true}
-          className="img flex justify-center z-20 "
-        >
+        <Carousel responsive={responsive} className="img  z-20 ">
           <Card
             img={"./images/card1.svg"}
-            title={"webby DIY Chemistry Kit"}
+            title={"Slime-Ology | Slime Making Kit "}
             offer={50}
-            price={1000}
-            originalPrice={2000}
+            price={389}
+            originalPrice={749}
+            kids={"4 to 6+ Years"}
           />
           <Card
             img={"./images/card1.svg"}
-            title={"webby DIY Chemistry Kit"}
+            title={"Bouncy Ball Mini Factory | Bouncy ball chemistry kit"}
             offer={50}
-            price={1000}
-            originalPrice={2000}
+            price={429}
+            originalPrice={849}
+            kids={"6 to 8+ Years"}
           />
           <Card
             img={"./images/card1.svg"}
-            title={"webby DIY Chemistry Kit"}
+            title={"Sugar Snake | Pyro-Chemistry basic kit"}
             offer={50}
-            price={1000}
-            originalPrice={2000}
+            price={389}
+            originalPrice={799}
+            kids={"8 to 10+ Years"}
           />
           <Card
             img={"./images/card1.svg"}
-            title={"webby DIY Chemistry Kit"}
+            title={"Artificial Snow | Make your own Snow STEM Kit"}
             offer={50}
-            price={1000}
-            originalPrice={2000}
+            price={349}
+            originalPrice={799}
+            kids={"4 to 6+ Years"}
           />
           <Card
             img={"./images/card1.svg"}
-            title={"webby DIY Chemistry Kit"}
+            title={"Fake Blood | Forensic science STEM Kit"}
             offer={50}
-            price={1000}
-            originalPrice={2000}
+            price={429}
+            originalPrice={799}
+            kids={"8 to 10+ Years"}
+          />
+          <Card
+            img={"./images/card1.svg"}
+            title={"Bubble Mania | STEM Bubble making kit "}
+            offer={50}
+            price={389}
+            originalPrice={699}
+            kids={"4 to 6+ Years"}
           />
         </Carousel>
       </center>
@@ -111,7 +120,7 @@ function Shop() {
           href="#"
           className=" flex  bg-[#EFBA00] max-w-max text-[#fff] p-5 rounded-l-[8px] px-7"
         >
-          Start Shopping{" "}
+          Explore Shop{" "}
         </a>
         <PageNextIcon
           color="#fff"

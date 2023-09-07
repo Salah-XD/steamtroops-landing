@@ -4,6 +4,7 @@ import { FaStore } from "react-icons/fa";
 import { BsCardList } from "react-icons/bs";
 import { LuLayoutDashboard } from "react-icons/lu";
 import { BiSolidUser } from "react-icons/bi";
+import Kit from "./Kit";
 
 function Header() {
   const [navbar, setNavbar] = React.useState(false);
@@ -66,6 +67,14 @@ function Header() {
           } ${navbar && "opacity-100 top-20"}`}
         >
           <li className="mx-4 mb-6 md:my-0">
+            <a href="#" className=" flex items-center gap-1 text-l ">
+              {/* <GoHome /> */}
+              <p className="bg-[#fff] rounded-lg text-[#111] px-2 py-1">
+                Pre-Book
+              </p>
+            </a>
+          </li>
+          <li className="mx-4 mb-6 md:my-0">
             <a href="#" className=" flex items-center gap-1 text-l">
               <GoHome />
               <p>Home</p>
@@ -89,12 +98,12 @@ function Header() {
               <p>Clan</p>
             </a>
           </li>
-          <li className="mx-4 mb-6 md:my-0">
+          {/* <li className="mx-4 mb-6 md:my-0">
             <a href="#" className=" flex items-center gap-1 text-l">
               <BiSolidUser />
               <p>SignIn</p>
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </>

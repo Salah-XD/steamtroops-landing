@@ -47,33 +47,36 @@ function Kit() {
         alt=""
       />
       <h1 className="text-center font-extrabold text-[24px] mb-[10px] pt-20 text-[#EFBA00]">
-        Access Boundless Knowledge with Subscription
+        LabNBox Monthly Subscription{" "}
       </h1>
+      <div className="flex justify-center">
+        <h1 className="rounded-lg text-sm text-[#fff] text-center font-bold bg-[#c06d19]  py-2 px-5 max-w-max ">
+          Launching Soon
+        </h1>
+      </div>
       <p className="text-center font-light mt-2 text-[#fff]">
-        Choose Your Theme
+        Upgrade for the Boundless STEM Skills
       </p>
       <center>
         <div className="cardsss flex flex-col sm:flex-row justify-center gap-[60px] my-10 relative">
-          <Carousel responsive={responsive} className="img ">
-            <Kcard
-              title={"Chemistry Kit"}
-              img={"./images/chem.png"}
-              desc={"Chemistry starter kit for kids"}
-              gradient={"linear-gradient(#AE491E, #E3B40F)"}
-            />
-            <Kcard
-              title={"Biology Kit"}
-              img={"./images/bio.png"}
-              desc={"Biology starter kit for kids"}
-              gradient={"linear-gradient(#DDD510, #7DAF12)"}
-            />
-            <Kcard
-              title={"Steam Kit"}
-              img={"./images/steam.png"}
-              desc={"Chemistry starter kit for kids"}
-              gradient={"linear-gradient(#6543EC, #4643EC, #D1008A)"}
-            />
-          </Carousel>
+          <Kcard
+            title={"Chemistry Kit"}
+            img={"./images/chem.png"}
+            desc={"Chemistry starter kit for kids"}
+            gradient={"linear-gradient(#AE491E, #E3B40F)"}
+          />
+          <Kcard
+            title={"Biology Kit"}
+            img={"./images/bio.png"}
+            desc={"Biology starter kit for kids"}
+            gradient={"linear-gradient(#DDD510, #7DAF12)"}
+          />
+          <Kcard
+            title={"Steam Kit"}
+            img={"./images/steam.png"}
+            desc={"Chemistry starter kit for kids"}
+            gradient={"linear-gradient(#6543EC, #4643EC, #D1008A)"}
+          />
         </div>
       </center>
       <h2 className="text-center font-medium  text-[20px] mb-[40px] pt-5 text-[#EFBA00]">

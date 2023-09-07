@@ -60,7 +60,7 @@
     padding: 30px 50px;
     flex-direction: column;
   }
-  .pic {
+  .present .pic {
     display: none;
   }
 }

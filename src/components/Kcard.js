@@ -19,7 +19,7 @@ function Kcard({ title, img, desc, gradient, togradient }) {
           href="#"
           className="text-[#111] bg-white p-2 px-[100px] rounded-lg font-semibold absolute top-[85%] "
         >
-          Subscribe
+          Join Waitlist
         </a>
       </div>
     </div>

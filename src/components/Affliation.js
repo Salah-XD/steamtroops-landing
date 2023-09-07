@@ -18,7 +18,7 @@ const responsive = {
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2,
+    items: 1,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -66,27 +66,29 @@ function Affliation() {
       <center>
         <Carousel responsive={responsive} infinite={true} className="img ">
           <img
-            src="./images/image 4.png"
+            src="./images/1.png"
             alt=""
-            className="w-[220px] object-contain  	bg-[#fff] p-5 shadow-xl rounded-lg "
+            className="w-[220px] object-contain  bg-[#fff] p-5 shadow-xl rounded-lg	 "
           />
+
           <img
-            src="./images/image 5.png"
+            src="./images/2.png"
             alt=""
-            className="w-[220px] object-contain 	bg-[#fff] p-5 shadow-xl rounded-lg"
+            className="w-[220px] object-contain bg-[#fff] p-5 shadow-xl rounded-lg"
           />
+
           <img
-            src="./images/image 6.png"
-            alt=""
-            className="w-[220px] object-contain	bg-[#fff] p-5 shadow-xl rounded-lg"
-          />
-          <img
-            src="./images/image 7.png"
+            src="./images/3.png"
             alt=""
             className="w-[220px] object-contain	bg-[#fff] p-5 shadow-xl rounded-lg"
           />
           <img
-            src="./images/image 8.png"
+            src="./images/4.png"
+            alt=""
+            className="w-[220px] object-contain	bg-[#fff] p-5 shadow-xl rounded-lg"
+          />
+          <img
+            src="./images/5.png"
             alt=""
             className="w-[220px] object-contain	bg-[#fff] p-5 shadow-xl rounded-lg"
           />
